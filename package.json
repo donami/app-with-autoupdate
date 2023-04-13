@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developers.webprovisions.io/schemas/2021-11/webprovisions-manifest.schema.json",
+  "name": "@webprovisions-registry/uno-my-cool-dist",
+  "version": "1.0.16",
+  "description": "",
+  "main": "src/index.js",
+  "author": "",
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://service:5000"
+  },
+  "scripts": {
+    "start": "npx vite --open",
+    "build-prod": "npx vite build",
+    "build-dev": "npx vite build --mode development"
+  },
+  "devDependencies": {
+    "vite": "^4.2.1"
+  },
+  "webprovisions": {
+    "type": "distribution"
+  }
+}

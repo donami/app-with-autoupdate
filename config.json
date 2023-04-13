@@ -1,0 +1,23 @@
+{
+    "name": "default",
+    "bindings": [],
+    "widgets": {
+        "my-widget": {
+            "type": "@humany/grid-widget",
+            "settings": {
+                "entry": "myComponent",
+                "breakpoints": {},
+                "routing": {},
+                "views": {},
+                "components": {
+                    "myComponent": {
+                        "type": "widget-header",
+                        "properties": {
+                            "header": "Hello World!"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
