@@ -1,7 +1,7 @@
 {
   "$schema": "https://developers.webprovisions.io/schemas/2021-11/webprovisions-manifest.schema.json",
   "name": "@webprovisions-registry/uno-my-cool-dist",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "",
   "main": "src/index.js",
   "author": "",
