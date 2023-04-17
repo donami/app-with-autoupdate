@@ -20,6 +20,9 @@
     "vite": "^4.2.1"
   },
   "webprovisions": {
-    "type": "distribution"
+    "type": "distribution",
+    "subscribe": [
+      "markus-bumping-versions-lab"
+    ]
   }
 }
