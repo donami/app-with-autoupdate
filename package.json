@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "author": "",
   "dependencies": {
-    "markus-bumping-versions-lab": "^1.0.2"
+    "markus-bumping-versions-lab": "^1.0.2",
+    "uuid": "^9.0.0"
   },
   "publishConfig": {
     "registry": "http://service:5000"
@@ -17,6 +18,7 @@
     "build-dev": "npx vite build --mode development"
   },
   "devDependencies": {
+    "@types/uuid": "^9.0.1",
     "vite": "^4.2.1"
   },
   "webprovisions": {
