@@ -6,7 +6,8 @@
   "main": "src/index.js",
   "author": "",
   "dependencies": {
-    "markus-bumping-versions-lab": "^1.0.2"
+    "markus-bumping-versions-lab": "^1.0.2",
+    "nanoid": "^4.0.2"
   },
   "publishConfig": {
     "registry": "http://service:5000"
